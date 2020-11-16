@@ -1,11 +1,8 @@
-#!python -m spacy download en_core_web_sm
 import spacy
 import en_core_web_sm
 from spacy.matcher import Matcher
 from spacy.tokens import Span
-#from pprint import pprint
 from spacy import displacy
-#from collections import Counter
 from word2number import w2n
 
 
@@ -30,10 +27,8 @@ def StringMultiplier(para):
     for match_id, start, end in matches:
         string_id = nlp.vocab.strings[match_id]  
         span = doc[start:end]
-        #print(match_id, string_id, start, end, span.text)
         index.append([start,end,span.text])
    
-    #print(match_id, string_id, start, end, span.text)
     index1=[]    
     for i in range(len(index)):
         index1.append(index[i][0]-i)
@@ -49,17 +44,12 @@ def StringMultiplier(para):
             ans1[last-1]=3*ans1[last-1]
         else:
             ans1=ans1
-    #print(beg,last,value)
 
     for z in index1:
         del ans1[z]
 
     ans1=(' '.join(ans1))
     return ans1
-
-
-
-
 
 
 def QuantityMoneyTranslator(para):
@@ -69,12 +59,6 @@ def QuantityMoneyTranslator(para):
     #text='European authorities fined Google a record sixty five million dollars on Wednesday for abusing its power in the mobile phone market and ordered the company to alter its practices. Furthermore, My weight was thirty five kilograms in 2018. A chocolate costs six dollars.'
     #text1='C M of Maharashtra spent two thousand and fouty two dollars.'
     doc = nlp(para)
-
-    #pprint([(X.text, X.pos_) for X in doc])
-    #pprint([(X.text, X.label_) for X in doc.ents])
-
-    #pprint([[X, X.ent_iob_, X.ent_type_] for X in doc])
-
 
     currency=["dollars", "dollar", "euro", "euros", "yens", "yen", "rupee", "rupees", "pound", "pounds"]
     quantity=["pounds","kilograms","grams"]
@@ -172,6 +156,3 @@ def QuantityMoneyTranslator(para):
 
 def TextTranslator(para):
     return QuantityMoneyTranslator(StringMultiplier(para))
-
-   
-#!python -m spacy download en_cire_web_sm
