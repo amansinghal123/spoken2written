@@ -1,3 +1,5 @@
+### Important Note for Aganitha: I haven't made this library myself, I have borrowed it from https://github.com/HerambVD/spoken2written, I have done a good amount of coding but making a python library was new to me, also I have done machine learning but not deep learning, I tried to improve the library but I could barely manage to understand the natural language processing part. Most of my time went in researching about how to make a python library. This is all the I could manage. Thank You.
+
 # Spoken English to Written English translator
 
 There exits a difference between how we write and how we speak. e.g While speaking we say "I paid twenty thousand dollars to xyz organization". But, we don't write above example as it is, instead we write it as "I paid $20000 to xyz organization."
