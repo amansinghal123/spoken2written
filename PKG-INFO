@@ -2,9 +2,9 @@ Metadata-Version: 1.2
 Name: spoken2written
 Version: 0.1.4
 Summary: This package is to translate spoken languag to its written form
-Home-page: https://github.com/HerambVD/spoken2written
-Author: Heramb Devbhankar
-Author-email: heramb1711@gmail.com
+Home-page: https://github.com/amansinghal123/spoken2written
+Author: Aman Singhal
+Author-email: a.singhal@gmail.com
 License: MIT
 Description: # Spoken English to Written English translator
         
