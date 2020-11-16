@@ -6,13 +6,13 @@ with open('README.md') as f:
     
 setuptools.setup(
     author="Heramb Devbhankar",
-    author_email="heramb1711@gmail.com",
+    author_email="a.singhal@gmail.com",
     name='spoken2written',
     license="MIT",
-    description='This package is to translate spoken languag to its written form',
+    description='This package is to translate spoken language to its written form',
     version='v0.1.4',
     long_description=README,
-    url='https://github.com/HerambVD/spoken2written',
+    url='https://github.com/amansinghal123/spoken2written',
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
     install_requires=['spacy','word2number'],
