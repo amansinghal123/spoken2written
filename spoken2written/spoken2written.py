@@ -6,7 +6,6 @@ from spacy import displacy
 from word2number import w2n
 
 
-
 def StringMultiplier(para):
     nlp = spacy.load("en_core_web_sm")
     ans1=para.split()
