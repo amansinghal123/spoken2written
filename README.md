@@ -1,4 +1,4 @@
-### Important Note for Aganitha: I haven't made this library myself, I have borrowed it from https://github.com/HerambVD/spoken2written, I have done a good amount of coding but making a python library was new to me, also I have done machine learning but not deep learning, I tried to improve the library but I could barely manage to understand the natural language processing part. Most of my time went in researching about how to make a python library. This is all the I could manage. Thank You.
+### Important Note for Aganitha: I haven't made this library myself, I have borrowed it from https://github.com/HerambVD/spoken2written, I have done a good amount of coding in python but making a python library was new to me, also I have done machine learning but not deep learning, I tried to improve the library but I could barely manage to understand the natural language processing part. Most of my time went in researching about how to make a python library. This is all the I could manage. Thank You.
 
 # Spoken English to Written English translator
 
